@@ -1,4 +1,26 @@
-Advanced Supermarket Management System
+#################--FOLLOW THESE STEPS FIRST IF YOU GOT ANY ERROR GO THROUGH README.md FILE---###############################
+
+1. CREATE ".env" FILE FROM ".env.example" FILE COPY ALL AND PASTE IN ".env" FILE AND CONFIGURE DATABASE CREDENTIALS
+2. RUN "setup_windows.bat" FOR WINDOWS TO DIRECTLY SETUP ON WINDOWS AND FOR MAX/LINUX RUN "setup_unix.sh" 
+
+(THESE SETUPS MEANT TO INITIALIZE DATABASE AND DATABASE CONNECTION REQUIRED FOR DATA TO STORE AND FETCH)                                      
+
+(USE VIRTUAL ENVIRONMET ) OR (FOR TEST PURPOSE YOU CAN SKIP VIRTUAL ENVIRONMENT)
+
+
+
+OR 
+
+
+2. RUN - python automated_setup.py (THESE SETUPS MEANT TO INITIALIZE DATABASE AND DATABASE CONNECTION REQUIRED FOR DATA TO STORE AND FETCH) 
+3. RUN - python main.py (IT RUN THE MAIN APPLICATION)
+
+----------------------FOR FURTHER PROJECT DETAILS AND USAGE GO THROUGH THIS "README.md" FILE------------------------
+
+
+
+"Advanced Supermarket Management System"
+
 A comprehensive, enterprise-grade supermarket management solution built with Python, Tkinter, and MySQL. This system provides complete inventory management, point-of-sale operations, customer relationship management, employee tracking, and advanced reporting capabilities.
 
 ⚠️ SECURITY NOTICE: This project uses environment variables for sensitive data. Never commit .env files or real credentials to version control.
@@ -94,8 +116,8 @@ If you prefer manual setup:
 
 1. Clone Repository
 bash
-git clone https://github.com/yourusername/supermarket-management-system.git
-cd supermarket-management-system
+git clone https://github.com/tarunverma00/Supermarket-Management-System.git
+cd Supermarket-Management-System
 2. Install Dependencies
 bash
 pip install -r requirements.txt
@@ -117,7 +139,7 @@ After automated setup:
 
 Username: admin
 
-Password: admin
+Password: admin123
 
 ⚠️ CRITICAL: Change the default password immediately after first login!
 
@@ -326,8 +348,8 @@ SECRET_KEY=production_secret_key
 Development Environment Setup
 bash
 # Clone repository
-git clone https://github.com/yourusername/supermarket-management-system.git
-cd supermarket-management-system
+git clone https://github.com/tarunverma00/Supermarket-Management-System.git
+cd Supermarket-Management-System
 
 # Create virtual environment
 python -m venv venv
@@ -410,8 +432,8 @@ Version 1.1 (Current)
 Quick Start Commands
 bash
 # 1. Clone Repository
-git clone https://github.com/yourusername/supermarket-management-system.git
-cd supermarket-management-system
+git clone https://github.com/tarunverma00/Supermarket-Management-System.git
+cd Supermarket-Management-System
 
 # 2. Automated Setup (Recommended)
 python automated_setup.py
@@ -443,7 +465,6 @@ Regular security updates and backups
 
 Monitor audit logs for suspicious activity
 
-© 2024 Supermarket Management System. All rights reserved.
 
 This updated README provides:
 
